@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+    --blue-color: hsl(246, 80%, 60%);
+    --LightredWork-color: hsl(15, 100%, 70%);
+    --Softblue-color: hsl(195, 74%, 62%);
+    --Lightred-color: hsl(348, 100%, 68%);
+    --Limegreen-color: hsl(145, 58%, 55%);
+    --Violet-color: hsl(264, 64%, 52%);
+    --Softorange-color: hsl(43, 84%, 65%);
+
+    --Verydarkblue-color: hsl(226, 43%, 10%);
+    --Darkblue-color: hsl(235, 46%, 20%);
+    --Desaturatedblue-color: hsl(235, 45%, 61%);
+    --PaleBlue-color: hsl(236, 100%, 87%);
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Verydarkblue-color);
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Outfit', sans-serif; */
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    /* border: 1px solid green; */
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+}
+.card {
+    width: 90%;
+    height: 180px;
+    margin-top: 2rem;
+    border-radius: 10px;
+    color: white;
+    /* background-color: var(--blue-color); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    /* border: 1px solid yellow; */
+    
+    
+}
+.card-report{
+    width: 100%;    
+    height: 120px;
+    background-color: var(--blue-color);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.card-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    /* border: 1px solid blue; */
+}
+ .user-text {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: var(--PaleBlue-color);
+ }
+.card span{
+    font-size: 1.2rem;
+    font-weight: 0.5;
+    color: white;
+}
+.card-bottom {
+    width: 100%;
+    height: 80px;
+    border-radius: 0px 0px 15px 15px;
+    color: var(--Desaturatedblue-color);
+    background-color: var(--Darkblue-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    /* border: 1px solid pink; */
+    position: absolute;
+    bottom: 0;      
+}
+.row-text{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid pink; */
+    margin-top: 1rem;
+    
+}
+
+#img-user {
+    width: 65px;
+    height: 65px;
+    margin: 2rem 1.4rem 2rem 2rem;
+    border-radius: 50%;
+    outline: 3px solid white;
+    
+    /* border: 1px solid pink; */
+}
+#report {
+    font-size: .8rem;
+    line-height: 2;
+}
+.day-text {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+
+/* -------Activity cards ----- */
+.card2 {
+    width: 90%;
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 1.5rem;
+}
+.back-img {
+    width: 100%;
+    height: 50px;
+    background-color: var(--LightredWork-color);
+    /* border: 1px solid white; */
+    border-radius: 15px 15px 0px 0px;
+    z-index: 1;
+    position: absolute;
+}
+.card2-bottom {
+    width: 100%;
+    height: 130px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: var(--Darkblue-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    margin-top: 2.5rem; 
+    z-index: 2;
+    position: absolute;
+    ;
+}
+.activity {
+    color: white;
+}
+
+
+#work{
+    height: 80px;
+    position: absolute;
+    right: 0;
+    margin: 0rem 1rem;
+    
+}
+
+@media only screen and (max-width: 375px {
+    
+}
