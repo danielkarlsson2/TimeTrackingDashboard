@@ -45,7 +45,7 @@ body {
     /* border: 1px solid green; */
     align-items: center;
     justify-content: center;
-    /* position: absolute; */
+    position: absolute;
 }
 .card {
     width: 90%;
@@ -131,6 +131,22 @@ body {
 }
 
 /* -------Activity cards ----- */
+#section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10.5rem;    
+}
+
 .card2 {
     width: 90%;
     /* border: 1px solid pink; */
@@ -161,19 +177,85 @@ body {
     position: absolute;
     ;
 }
-.activity {
-    color: white;
+.head {
+    /* border: 1px solid purple; */
 }
-
-
+.act-head {
+    color: white;
+    /* margin-left: 2rem; */
+    /* margin-top: 2rem; */
+    
+}
+.act-number {
+    color: white;
+    font-size: 1.8rem;    
+    /* margin-left: 2rem; */
+    font-weight: 200;
+    line-height: 3rem;
+}
+.right-ellips {
+    width: 38%;
+    height: 3.2rem;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: .5rem;
+    
+}
+.ellips-text{
+    /* height: 50px; */
+    color: var(--PaleBlue-color);
+    /* border: 1px solid blue; */
+    font-size: .9rem;   
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;   
+}
+.fas {
+    transform: scale(1.6);
+    position: absolute;
+    top: 0;
+    right: 0; 
+    margin-right: 0.6rem;
+    color: var(--PaleBlue-color);
+}
+.right-text {
+    display: flex;
+    position: relative;
+    bottom: 0;
+}
 #work{
     height: 80px;
     position: absolute;
-    right: 0;
-    margin: 0rem 1rem;
-    
+    right: 0;    
+    margin: 0rem 1rem;    
 }
 
-@media only screen and (max-width: 375px {
-    
+.play{
+    background-color:var(--Softblue-color);
 }
+.study{
+    background-color:var(--Lightred-color);
+}
+.excercise{
+    background-color:var(--Limegreen-color);
+}
+.social{
+    background-color:var(--Violet-color);
+}
+.selfcare{
+    background-color:var(--Softorange-color);
+}
+
+
+
+
+
+
+/* @media only screen and (max-width: 375px {
+    
+} */
